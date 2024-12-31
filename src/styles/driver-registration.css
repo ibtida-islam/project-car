@@ -1,0 +1,143 @@
+/* General Form Styles */
+
+
+.form-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000d6b;
+    margin-bottom:24px;
+    padding-top:24px
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(57, 115, 75, 0.1);
+    
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4a5568;
+    
+  }
+  
+  .input-field, .file-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .input-field:focus, .file-input:focus {
+    outline: none;
+    border-color: #f9a826;
+    box-shadow: 0 0 0 2px #f0d19f;
+  }
+  
+  .error-text {
+    color: #e53e3e;
+    font-size: 0.875rem;
+    margin-top: 4px;
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    padding: 16px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f9a826;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #020a4de9;
+  }
+  
+  .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+
+
+
+  /* File Input Section */
+.file-input {
+    padding: 12px;
+    font-size: 0.9rem;
+    /* border: 1px solid #15417b; */
+    /* border-radius: 8px; */
+    /* background-color: #ffffff; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 50%; /* Ensure the input takes up the full width of its container */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.file-input::file-selector-button {
+    background-color: #020a4de9; /* Button background color */
+    color: white; /* Text color */
+    padding: 2px 8px; /* Button padding */
+    border-radius: 5px;
+    border: 2px black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on file input button */
+.file-input::file-selector-button:hover {
+    /* background-color: #f9a826; */
+    background-color: #fff;
+    color: #000d6b;
+}
+
+/* Focus effect for file input */
+.file-input:focus {
+    outline: none;
+    border-color: #f9a826;
+    box-shadow: 0 0 0 2px #f0d19f;
+}
+
+/* File input error text */
+.error-text {
+    color: #e53e3e;
+    font-size: 0.875rem;
+    margin-top: 4px;
+    margin-left: 4px; /* Adding some left margin for alignment */
+}
+
+/* Label styling for file input */
+.label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4a5568;
+    margin-bottom: 6px; /* Add space below the label */
+}
+
+/* Form Group Styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Increase gap between label, input, and error text */
+}

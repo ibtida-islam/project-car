@@ -11,3 +11,10 @@
     border: none;
     outline: none;
   }
+  .payy{
+    font-size:medium;
+    border-top: 5px solid #f9a826;
+    border-left: 5px solid #f9a826;
+    padding: 8px;
+    margin-bottom: 5px;
+  }

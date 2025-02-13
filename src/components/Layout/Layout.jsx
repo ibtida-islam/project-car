@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer'
 import Routers from '../../routers/Routers'
 
 const Layout = () => {
+    
     return (
         <Fragment>
             <Header />
@@ -13,6 +14,7 @@ const Layout = () => {
             </div>
             <Footer />
         </Fragment>
+       
     );
 }
 

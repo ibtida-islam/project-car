@@ -1,0 +1,215 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.sos-header {
+  background-image: url("E:\WEB DEVELOPMENT\TEST FINAL YR PRO\test-car-rental\src\assets\all-images\safety.jpg");
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.sos-content {
+  padding: 20px;
+}
+
+
+
+.helpline-section {
+  /* background-color: #fff2cc; */
+  /* border: 2px solid #f9a826; */
+  border-left: 5px solid #f9a826;
+  /* border-radius: 8px; */
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.helpline-link {
+  color: #000d6b; /* Color to match the design */
+  text-decoration: none; /* Remove the underline */
+  font-weight: bold;
+}
+
+.helpline-link:hover {
+  text-decoration: underline; /* Add underline on hover for better user experience */
+}
+.helpline-numbers {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.helpline-section h3{
+  color: #4CAF50;
+  justify-content: center;
+  align-items: center;
+}
+
+.helpline-numbers li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #f9a826;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: #f9a826;
+  font-weight: bold;
+}
+
+.steps-section {
+  background-color: #ffffff;
+  border-left: 5px solid #f9a826;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 48%;
+}
+
+.steps-section ol {
+  padding-left: 20px;
+}
+
+.steps-section li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sos-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f9a826;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sos-button:hover {
+  background-color: #e08f1b;
+}
+
+.sos-footer {
+  background-color: #000d6b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+.info-wrapper {
+  display: flex; /* Use flexbox for layout */
+  gap: 25px; /* Add space between the sections */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.location-info, .station-info {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 48%; /* Each section takes up 48% of the space */
+}
+.user-phone-section {
+  
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  /* position: absolute;
+  justify-content: end; */
+  
+}
+
+
+
+.user-phone-section input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  justify-content: center;
+  /* border-radius: 4px; */
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.user-phone-section input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.user-phone-section button {
+  width: 50%;
+  justify-content: end;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  gap: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user-phone-section button:hover {
+  background-color: #45a049;
+}
+
+.user-phone-section p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.save-button, .unsave-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.save-button {
+  background-color: green;
+}
+
+.unsave-button {
+  background-color: red;
+}
+
+.save-button:hover, .unsave-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .info-wrapper {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+
+  .location-info, .station-info {
+      width: 100%; /* Take up full width on mobile */
+  }
+}

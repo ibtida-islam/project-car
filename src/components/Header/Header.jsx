@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import { Container, Row, Col } from 'reactstrap';
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink ,useNavigate} from "react-router-dom";
 import '../../styles/header.css';
-
+import {UserButton } from "@clerk/clerk-react";
 
 const navLinks = [
   {
@@ -29,8 +29,14 @@ const navLinks = [
 
 const Header = () => {
   const menuRef = useRef(null);
+  const navigate = useNavigate(); // Initialize the useNavigate hook
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
+  const handleSOSClick = () => {
+    navigate('/sos'); // Navigate to the SOS page
+  };
+
+  
   return <header className="header">
 
     {/* ========================================================header top======================================================== */}
@@ -42,22 +48,26 @@ const Header = () => {
             <div className="header_top_left">
               <span>Need Help?</span>
               <span className='header_top_help'>
-                <i class="ri-phone-fill"></i> +1-202-555-0149
+                <i class="ri-phone-fill"></i>+91 9782563478
               </span>
+              <div>
+              <span>{/* SOS Button */}
+                    <button className="sos_btn" onClick={handleSOSClick}>
+                      <i class="ri-heart-pulse-line"></i> SOS
+                    </button>
+                  </span>
+              </div>
             </div>
           </Col>
 
           <Col lg='6' md='6' sm='6'>
-            <div className="header_top_right d-flex align-items-center justify-content-end gap-3">
-              <Link to="#" className="d-flex align-items-center gap-1">
-                <i class="ri-login-circle-line"></i>Login
-              </Link>
-              <Link to="#" className="d-flex align-items-center gap-1">
-                <i class="ri-user-line"></i>Register
-              </Link>
-
-
-            </div>
+            <div className="header_top_right d-flex align-items-center justify-content-end gap-1">
+            
+            <UserButton className="d-flex align-items-center"/>
+            
+             
+                </div>
+            
           </Col>
 
         </Row>
@@ -73,7 +83,7 @@ const Header = () => {
               <h1>
                 <Link to="/home" className='d-flex align-items-center gap-3'>
                   <i class="ri-car-line"></i>
-                  <span>Rent Car <br /> Service</span>
+                  <span>WHEELQUEST</span>
                 </Link>
               </h1>
             </div>
@@ -93,9 +103,10 @@ const Header = () => {
             <div className="header_location d-flex align-items-center gap-2">
               <span><i class="ri-time-line"></i></span>
               <div className="header_location-content">
-                <h4>Sunday to Friday</h4>
+                <h4>Sunday to Saturday</h4>
                 <h6>10am - 7pm</h6>
               </div>
+              
             </div>
           </Col>
 

@@ -21,7 +21,7 @@ const BlogDetails = () => {
 
   return (
     <div title={blog.title}>
-      <h2>hi</h2>
+      {/* <h2>hi</h2> */}
       <section>
         <Container>
           <Row className="mt-4">
@@ -48,7 +48,7 @@ const BlogDetails = () => {
                 <h6 className="ps-5 fw-normal">
                   <blockquote className="fs-4 blue">{blog.quote}</blockquote>
                 </h6>
-                <p className="section__desc">{blog.description}</p>
+               
               </div>
 
               <div className="comment__list mt-5">
@@ -60,9 +60,7 @@ const BlogDetails = () => {
                     <h6 className=" fw-bold blue">David Visa</h6>
                     <p className="section__desc mb-0">14 July, 2022</p>
                     <p className="section__desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                      Had a good experience!!
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
@@ -109,7 +107,7 @@ const BlogDetails = () => {
                   <div className="recent__blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/blogs/${item.title}`}>{item.title}</Link>
                     </h6>
                   </div>
                 </div>

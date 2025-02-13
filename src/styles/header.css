@@ -38,8 +38,33 @@
  .header_top_right a:hover {
      color: #fff;
  }
-
-
+ .sos_btn {
+    background-color: #ff0000; /* Red color */
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 2px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .sos_btn i {
+    font-size: 18px;
+  }
+  
+  /* Change text color to yellow on hover */
+  .sos_btn:hover {
+    color: #f9a826;
+  }
+  
+  /* Optionally change background color on hover */
+  .sos_btn:hover {
+    background-color: #e60000; /* Darker red for better hover effect */
+  }
+  
  /*=======================================================header middle========================================================= */
  .header__middle {
      padding: 20px 0px;

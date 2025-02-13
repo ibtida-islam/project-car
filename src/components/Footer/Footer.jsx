@@ -47,10 +47,8 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+            A car rental system is a service that allows customers to rent vehicles for a specified period, offering a convenient and flexible alternative to owning a car. Whether for a business trip, vacation, or an emergency need, car rental systems provide a wide range of vehicles—from economy cars to luxury models—designed to suit various customer preferences and requirements.
+
             </p>
           </Col>
 
@@ -71,9 +69,9 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
               <p className="office__info">Saltlake, Kolkata, India</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">Phone: +91 9782563478</p>
 
-              <p className="office__info">Email: eg@gmail.com</p>
+              <p className="office__info">Email: wheelquest@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>

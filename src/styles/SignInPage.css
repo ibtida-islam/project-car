@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #b2b6bd;
+  }
+  
+  /* Sign-in Container */
+  .signin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('E:/WEB DEVELOPMENT/TEST FINAL YR PRO/test-car-rental/src/assets/all-images/car.png') no-repeat center center/cover;
+    padding: 0 20px;
+  }
+  .signin-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; /* Add space between button and form */
+  }
+  
+/* Custom Sign-in Button */
+.custom-signin-button {
+    background-color: #f9a826; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    margin-top: 380%;
+    padding: 0.75rem 1.5rem; /* Padding around the text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover Effect */
+  .custom-signin-button:hover {
+    background-color: #fff; /* Darker shade for hover */
+    color: #f9a826;
+    transform: scale(2.05); /* Slightly increase size on hover */
+  }
+  
+  /* Active State */
+  .custom-signin-button:active {
+    background-color: #290d50; /* Even darker shade for active */
+    transform: scale(0.98); /* Slightly reduce size on click */
+  }
+  
+  /* Form Styling */
+  .signin-form {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  /* background: url('E:\WEB DEVELOPMENT\TEST FINAL YR PRO\test-car-rental\src\assets\all-images\car.png'); */
+  border-radius: 10px;
+  padding: 2rem;
+  height: 100%; /* Makes it occupy full height of the container */
+  max-height: 600px; /* Optional: Adds a maximum height */
+  }
+ 
+  
+  

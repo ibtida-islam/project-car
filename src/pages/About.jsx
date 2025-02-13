@@ -32,17 +32,9 @@ const About = () => {
                 </h2>
 
                 <p className="section__desc">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
-                </p>
+                We are committed to providing safe ride solutions by ensuring that every vehicle in our fleet undergoes rigorous inspections and maintenance, including checks on brakes, tires, lights, and engine systems. Our cars are equipped with advanced safety features such as airbags, anti-lock braking systems, electronic stability control, and backup cameras to protect you on the road. Additionally, we offer 24/7 roadside assistance and comprehensive insurance coverage options to give you peace of mind during your rental experience. With our dedication to safety, you can trust that your journey will be secure, comfortable, and worry-free.
 
-                <p className="section__desc">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">

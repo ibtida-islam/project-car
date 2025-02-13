@@ -42,14 +42,16 @@ const Testimonial = () => {
             <div className="testimonial py-4 px-3">
 
                 <p className='section__desc'>
-                    bjk.c ugt,tg,kkhi3y87863874687
+                From the moment I made my reservation to the drop-off of the car,jorden provided exceptional service. 
+                They made sure I understood everything about the rental agreement and even offered helpful tips about the local area.
+                 The car was perfect for my trip, and I truly appreciate jorden's attention to detail. Highly recommend!
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
-                        <h6 className="s mb-0 mt-3">J k</h6>
+                        <h6 className="s mb-0 mt-3">John Cena</h6>
                         <p className='section__desc'>Customer</p>
                     </div>
                 </div>
@@ -57,10 +59,10 @@ const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className='section__desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-                    explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-                    ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-                    voluptate odit?
+                I had the pleasure of renting a car from aladin .From the moment I made the reservation, they were incredibly responsive and helpful, 
+                answering all my questions. When I picked up the car, it was clean, well-maintained, 
+                and ready to go. aladin ensured that the whole process was seamless, making my trip stress-free. 
+                I will definitely be coming back!
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
@@ -75,10 +77,10 @@ const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className='section__desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-                    explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-                    ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-                    voluptate odit?
+                I had a fantastic experience renting a car from suman. They were extremely professional, 
+                and the process was incredibly efficient. The car was in great condition, and I felt confident that
+                 I was getting the best value for my money. I highly recommend suman 
+                 for anyone looking for a reliable car rental experience!
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
@@ -93,10 +95,10 @@ const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className='section__desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-                    explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-                    ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-                    voluptate odit?
+                I’ve rented cars from several places, but the service I received from debendhu was outstanding.
+                 They took the time to explain all the rental options and ensured I chose the best one for my needs. 
+                 The car was spotless, and debendhu went above and beyond to make sure I was comfortable with everything. 
+                 I’ll definitely rent from them again!
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">

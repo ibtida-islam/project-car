@@ -1,4 +1,4 @@
-/* General Styling */
+General Styling
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('E:/WEB DEVELOPMENT/TEST FINAL YR PRO/test-car-rental/src/assets/all-images/car.png') no-repeat center center/cover;
+    background: url('C:\Users\uwu\Desktop\grp 6\Wheelquest\src\assets\all-images\car.png') no-repeat center center/cover;
     padding: 0 20px;
   }
   .signin-button-wrapper {
@@ -55,7 +55,7 @@ body {
   justify-content: center;
   width: 100%;
   max-width: 400px;
-  /* background: url('E:\WEB DEVELOPMENT\TEST FINAL YR PRO\test-car-rental\src\assets\all-images\car.png'); */
+  /* background: url('C:\Users\uwu\Desktop\grp 6\Wheelquest\src\assets\all-images\car.png'); */
   border-radius: 10px;
   padding: 2rem;
   height: 100%; /* Makes it occupy full height of the container */
